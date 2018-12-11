@@ -51,6 +51,7 @@
             this.gridSQL.Name = "gridSQL";
             this.gridSQL.Size = new System.Drawing.Size(897, 163);
             this.gridSQL.TabIndex = 1;
+            this.gridSQL.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RClick);
             // 
             // EditorSQL
             // 

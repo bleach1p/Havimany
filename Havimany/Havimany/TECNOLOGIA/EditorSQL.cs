@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Havimany.TECNOLOGIA
 {
-    public partial class EditorSQL : Form
+    public partial class EditorSQL : PADRAO.SmallForm
     {
         public EditorSQL()
         {
@@ -67,6 +67,11 @@ namespace Havimany.TECNOLOGIA
             {
                 this.Close();
             }
+        }
+
+        private void RClick(object sender, MouseEventArgs e)
+        {
+            RightClick(sender,e); 
         }
     }
 }
