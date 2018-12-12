@@ -17,16 +17,6 @@ namespace Havimany.TECNOLOGIA
             InitializeComponent();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
         private void textSQL_KeyDown(object sender, KeyEventArgs e)
         {
             String sQuery;

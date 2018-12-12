@@ -62,6 +62,12 @@
       <DependentUpon>EditorSQL.cs</DependentUpon>
     </Compile>
     <Compile Include="TECNOLOGIA\MANIPULACAO_DB\Control.cs" />
+    <Compile Include="VIEW\US%28USUARIO%29\US_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\US%28USUARIO%29\US_Usuario.Designer.cs">
+      <DependentUpon>US_Usuario.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="PADRAO\SmallForm.resx">
       <DependentUpon>SmallForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +82,9 @@
     </Compile>
     <EmbeddedResource Include="TECNOLOGIA\EditorSQL.resx">
       <DependentUpon>EditorSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\US%28USUARIO%29\US_Usuario.resx">
+      <DependentUpon>US_Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

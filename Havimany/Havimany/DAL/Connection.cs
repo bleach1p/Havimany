@@ -11,7 +11,7 @@ namespace Havimany.DAL
 {
     class Connection
     {
-        protected String stringConexao = "Data Source=25.3.189.156;Initial Catalog=Havimany;Persist Security Info=True;User ID=sa;Password=1234qwer;";
+        protected String stringConexao = "Data Source=25.3.189.156;User ID=sa;Password=1234qwer;";
         protected SqlConnection conexao;
         protected SqlCommand cmd;
         protected SqlDataReader resultSet;
@@ -59,7 +59,7 @@ namespace Havimany.DAL
         {
             String query = "declare @nome varchar(30),@senha varchar(20)," +
                  "@aux varbinary(100) set @nome ='" + login + "' set @senha ='" + senha + "' set @aux=Convert(varbinary(100),pwdEncrypt(@senha))" +
-                 "INSERT INTO US_USUARIO(USUARIO,SENHA) VALUES(@nome,@aux)";
+                 "INSERT INTO US_USUARIO(LOGIN,SENHA) VALUES(@nome,@aux)";
             try
             {
                 Pesquisa(query);

@@ -16,7 +16,7 @@ namespace Havimany
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Havimany.TECNOLOGIA.EditorSQL());
+            Application.Run(new Havimany.VIEW.US_USUARIO_.US_Usuario());
         }
     }
 }
